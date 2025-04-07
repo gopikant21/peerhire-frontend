@@ -30,8 +30,7 @@ A React TypeScript application that allows freelancers to view and bid on projec
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/freelancer-dashboard.git
-   cd freelancer-dashboard
+   git clone https://github.com/gopikant21/peerhire-frontend.git
    ```
 
 2. Install dependencies:
@@ -85,7 +84,7 @@ A React TypeScript application that allows freelancers to view and bid on projec
 
 ## Deployment
 
-The project is deployed on Vercel and can be accessed at: [https://freelancer-dashboard.vercel.app](https://freelancer-dashboard.vercel.app)
+The project is deployed on Vercel and can be accessed at: [https://peerhire-frontend.vercel.app/]
 
 ## Future Enhancements
 
