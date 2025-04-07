@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "description": "Redesign a company website to be modern, responsive, and user-friendly. The website should have a clean design, fast loading times, and be optimized for mobile devices.",
+      "budget": 15000,
+      "timeline": 7,
+      "skills": ["React", "TailwindCSS", "UI/UX"]
+    },
+    {
+      "id": 2,
+      "name": "Blockchain Smart Contract",
+      "description": "Develop a secure smart contract for a new crypto token. The contract should include features like token minting, burning, and transfers with proper security measures.",
+      "budget": 50000,
+      "timeline": 14,
+      "skills": ["Solidity", "Ethereum", "Web3"]
+    },
+    {
+      "id": 3,
+      "name": "Mobile App Development",
+      "description": "Create a cross-platform mobile app for a fitness tracking system. The app should track workouts, nutrition, and provide personalized recommendations.",
+      "budget": 40000,
+      "timeline": 21,
+      "skills": ["React Native", "Firebase", "Redux"]
+    },
+    {
+      "id": 4,
+      "name": "E-commerce Platform Integration",
+      "description": "Integrate payment gateways and shipping APIs into an existing e-commerce site. The integration should support multiple payment methods and shipping providers.",
+      "budget": 20000,
+      "timeline": 10,
+      "skills": ["API", "Backend", "Payment Processing"]
+    },
+    {
+      "id": 5,
+      "name": "Data Visualization Dashboard",
+      "description": "Build an interactive dashboard to visualize business analytics data. The dashboard should include charts, graphs, and filters for exploring the data.",
+      "budget": 25000,
+      "timeline": 14,
+      "skills": ["D3.js", "React", "Data Analysis"]
+    },
+    {
+      "id": 6,
+      "name": "AI Chatbot Implementation",
+      "description": "Implement an AI-powered chatbot for customer support. The chatbot should be able to answer FAQs and route complex inquiries to human agents.",
+      "budget": 35000,
+      "timeline": 18,
+      "skills": ["NLP", "Machine Learning", "Python"]
+    },
+    {
+      "id": 7,
+      "name": "Social Media Marketing Campaign",
+      "description": "Design and execute a comprehensive social media marketing campaign for a product launch. The campaign should include content creation, scheduling, and performance tracking.",
+      "budget": 18000,
+      "timeline": 12,
+      "skills": ["Digital Marketing", "Content Creation", "Analytics"]
+    },
+    {
+      "id": 8,
+      "name": "Backend API Development",
+      "description": "Develop a RESTful API for a mobile application. The API should handle user authentication, data storage, and business logic.",
+      "budget": 30000,
+      "timeline": 15,
+      "skills": ["Node.js", "Express", "MongoDB"]
+    }
+  ]

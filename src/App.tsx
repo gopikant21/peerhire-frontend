@@ -1,27 +1,30 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import DarkModeToggle from './components/DarkModeToggle';
-import FreelancerProfile from './components/FreelancerProfile';
-import ProjectBidding from './components/ProjectBidding';
-import { mockProfile, mockProjects } from './data/mockData';
+// src/App.tsx
 
-function App() {
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { DarkModeProvider } from './contexts/DarkModeContext';
+import Navbar from './components/common/Navbar';
+import Footer from './components/common/Footer';
+import Dashboard from './pages/Dashboard';
+import Profile from './pages/Profile';
+
+const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-8 px-4">
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        className="max-w-7xl mx-auto"
-      >
-        <div className="flex justify-end mb-6">
-          <DarkModeToggle />
-        </div>
-        
-        <FreelancerProfile profile={mockProfile} />
-        <ProjectBidding projects={mockProjects} />
-      </motion.div>
-    </div>
+    <DarkModeProvider>
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+        <Router>
+          <Navbar />
+          <main className="min-h-[calc(100vh-4rem)] pt-16">
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/profile" element={<Profile />} />
+            </Routes>
+          </main>
+          <Footer />
+        </Router>
+      </div>
+    </DarkModeProvider>
   );
-}
+};
 
 export default App;
